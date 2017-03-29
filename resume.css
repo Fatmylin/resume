@@ -85,6 +85,36 @@ html, body {
   cursor: pointer;
 }
 
+.sintro{
+	position: absolute;
+	font-weight: 900;
+	font-size: 200px;
+	left: 40%;
+	top: 25%;
+	transition-duration: 0.2s;
+	color: #666666;
+}
+
+.sintro2{
+	position: absolute;
+	font-weight: 900;
+	font-size: 200px;
+	left: 40%;
+	top: 25%;
+	transition-duration: 0.2s;
+	color: white;
+}
+
+.sintro3{
+	position: absolute;
+	font-weight: 900;
+	font-size: 200px;
+	left: 17%;
+	top: 25%;
+	transition-duration: 0.2s;
+	color: #666666;
+}
+
 .face {
   height: 300px;
   width: 300px;
@@ -131,20 +161,20 @@ li {
   height: 600px;
   background-color: #666666;
   color: white;
-  font-size: 50px;
-  padding-top: 30px;
-  padding-left: 20%;
-  font-weight: 900;
+
 }
 
+
 .selintro {
-  left: 5%;
+  top: 20%;
+  left: 25%;
   margin-top: 42px;
   font-weight: normal;
   font-size: 20px;
   opacity: 0;
   transition-duration: 0.5s;
 }
+
 
 .fourth {
   font-size: 50px;
@@ -168,6 +198,8 @@ li {
   left: 2%;
   box-shadow: 0px 0px 20px transparent;
   border: 0px;
+  opacity: 0;
+  transition-duration: 0.2s;
 }
 .film:hover {
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
@@ -186,9 +218,12 @@ li {
 .animate {
   opacity: 100;
 }
+.animate2{
+	opacity: 0;
+}
 
 p{
-	left: 45%;
+	text-align:center;
 	top: 10px;
 	color: #666666;
 	font-size: 20px;
