@@ -54,16 +54,17 @@ $("#works").mouseleave(function(){
  
  if ($(window).width() >1100)
 	 {
-		 $(".profilepic").addClass("animate3");
-		 $(".experience").addClass("animate4");
-
-	 }
-	 else if($(window).width() <1100)
-     {
 		 $(".profilepic").removeClass("animate3");
 		 $(".experience").removeClass("animate4");
 
 	 }
+	 else if($(window).width() <1100)
+     {
+		
+		 $(".profilepic").addClass("animate3");
+		 $(".experience").addClass("animate4");
+	 }
+	 });
 $(window).scroll(function() {
 
     if ($(this).scrollTop() > 650) {
@@ -103,7 +104,7 @@ $(function(){
 　　}).scroll();
 　});
 });
-});/*
+/*
 $(document).ready(function() {
 $(".various").fancybox({
     maxWidth    : 800,
