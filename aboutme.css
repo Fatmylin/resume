@@ -136,6 +136,7 @@ a {
   background-image: url("https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/12032996_1182508888429823_2687867117430601467_n.jpg?oh=5a0dbcf8e7d42af1b85e41e4f220d62c&oe=5960C935");
   background-size: cover;
   border: solid 0px;
+  left: 10%;
 }
 
 .intro {
@@ -152,6 +153,10 @@ a {
   transition-duration: 0.2s;
   width: 600px;
   opacity: 0;
+  position: absolute;
+  left: 40%;
+  top: 10%;
+  height: 600px;
 
 }
 
@@ -286,9 +291,9 @@ hr {
 	left: 10%;
 }
 .animate4{
-  position: absolute;
-  left: 40%;
-  top: 10%;
+  position: relative;
+  left: 10%;
+  top: 10px;
 }
 
 
