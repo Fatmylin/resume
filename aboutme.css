@@ -37,21 +37,35 @@ html, body {
   color: #000;
 }
 
-#nav {
+a{
+	text-decoration: none;
+	color: white;
+}
+.nav {
   font-size: 25px;
   letter-spacing: 5px;
-  padding-left: 10%;
-}
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  top: 0;
+  background-color: #666666;
+  color: white;
+  box-shadow: 0px 4px 15px #333;
 
+}
+#nav{
+	padding-left: 10%;
+}
 #Bar {
   position: absolute;
   display: inline-block;
-  right: 10%;
+  left: 70%;
 }
 
 #bar {
   display: inline-block;
   font-size: 15px;
+
 }
 
 #banner {
@@ -60,6 +74,7 @@ html, body {
   text-align: center;
   background-image: url("https://lh3.googleusercontent.com/jH_JF010JwBbbHr8q6aLP72UYBXKAyc1OGR1mTvhwy194lYHktZyY5oPlYSiP2c5k8Edw9nxPLTkElGDRc7m2eu6zN5baUj80EV1W3NUJFEdJUGw_iM5GJagIMQXslS_J0EYoYu7F3l00jeuGCUVa78S23KSr2HgX1IAy8eg8zzuuwtFwlrzihNfB0VKOFP8WC7kc4z3GMH47vGRRdGJrIRoNpFgKU1CUK6H5ontaRr6n8fhNDKplDDS6SNtsNu5EM7Bc_UaOyLevvasWMBcnlwpaeE8-frdNoWRQIHEmiLdWTmy8gtA99cpRd4avUXQgNxE8dFPG5ervOG8F6m40aXwQNOBnu8bzNcQmg1GMSOgeoL2SnAAadTJVpyKf45oGJ7qXLYSJfwANSP18dxJLA0zWgl0oScnCcalZwTLW26_aiz1zxdGfbEhQplewpHdRqktV3kczblMSdsmLkJhCofFubFYYJKv79vrPKj-DX3g3Y4Gmu22EMUQXd8tu2llndz7DZRANeSE49DL6Gavev1UXynkwQYLkhCA3TsV62vNQj9dc4J6Gb0ckN_3pEca85H3VlQPmDHL9Sh0t877m7MS8YxHIWCjXXT3PmgPSnjUv-rtKTRi=w1380-h777-no");
   background-size: cover;
+
 }
 
 .title {
@@ -72,13 +87,14 @@ html, body {
 }
 
 .title > h4 {
-  top: -60px;
+  top: 20px;
   font-size: 30px;
 }
 
 .links {
-  top: 15%;
+  top: 30%;
   height: 50px;
+  animation: tracking-in-expand 1.5s;
 }
 
 #p {
@@ -97,7 +113,9 @@ a {
   color: #6C6D6D;
 }
 .Intro{
-	text-align: cneter;
+	width: 100%;
+	position: relative;
+	display: inline-block;
 }
 .name {
   top: -80px;
@@ -111,10 +129,9 @@ a {
 .profilepic {
   transition-duration: 0.2s;
   opacity: 0;
-  top: 150px;
-  width: 250px;
-  height: 250px;
-  left: 10%;
+  top: 125px;
+  width: 300px;
+  height: 300px;
   margin-bottom: 400px;
   background-image: url("https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/12032996_1182508888429823_2687867117430601467_n.jpg?oh=5a0dbcf8e7d42af1b85e41e4f220d62c&oe=5960C935");
   background-size: cover;
@@ -122,20 +139,20 @@ a {
 }
 
 .intro {
-  bottom: -225px;
-  width: 240px;
-  font-size: 15px;
+  bottom: -260px;
+  font-size: 20px;
   background-color: #6C6D6D;
   color: #fff;
   padding-left: 7px;
+  width: 300px;
+
 }
 
 .experience {
   transition-duration: 0.2s;
-  position: absolute;
-  left: 40%;
-  top: 10%;
+  width: 600px;
   opacity: 0;
+
 }
 
 .experience > h2 {
@@ -147,7 +164,7 @@ a {
   text-align: left;
   width: 280px;
   height: 280px;
-  height: 600px;
+  height: 500px;
   display: inline-block;
   vertical-align: top;
   font-weight: 600;
@@ -168,6 +185,7 @@ a {
 .b {
   opacity: 0;
   transition-duration: 0.2s;
+  top:50px;
 }
 
 hr {
@@ -184,7 +202,7 @@ hr {
 #works {
   text-align: center;
   color: #666666;
-  height: 800px;
+  height: 900px;
 }
 
 .films {
@@ -198,16 +216,18 @@ hr {
 
 .films > a
 {
-	font-size: 20px
+	color: #666666;
+	font-size: 20px;
 }
 
 .films > h3
 {
-	left: -30%
+	left: -30%;
 }
 .b2 {
   opacity: 0;
   transition-duration: 0.2s;
+  top: 50px;
 }
 
 .sintro {
@@ -260,6 +280,15 @@ hr {
 
 .animate2 {
   opacity: 0;
+}
+
+.animate3{
+	left: 10%;
+}
+.animate4{
+  position: absolute;
+  left: 40%;
+  top: 10%;
 }
 
 
