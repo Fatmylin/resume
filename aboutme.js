@@ -11,7 +11,7 @@
 	  $(".index").removeClass("animate");
 	  $(".bar").removeClass("animate2");
   }
- if ($(window).width() >1100)
+ if ($(window).width() >1200)
 	 {
 		
 		 $(".profilepic").removeClass("animate3");
@@ -19,7 +19,7 @@
 		 $("#banner").css("height","800px");
 
 	 }
-	 else if($(window).width() <1100)
+	 else if($(window).width() <1200)
      {
 		
 		 $(".profilepic").addClass("animate3");
