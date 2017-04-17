@@ -1,15 +1,16 @@
 
+ $(".index").css("display","none");
  $(window).resize(function(){	 
  
   if ($(window).width() <860)
   {
-	  $(".index").addClass("animate");
-	  $(".bar").addClass("animate2");
+	  $(".index").css("display","initial");
+	  $(".bar").css("display","none");
   }
   else
   {
-	  $(".index").removeClass("animate");
-	  $(".bar").removeClass("animate2");
+	  $(".index").css("display","none");
+	  $(".bar").css("display","initial");
   }
  if ($(window).width() >1200)
 	 {
