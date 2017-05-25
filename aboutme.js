@@ -2,7 +2,7 @@
  $(".index").css("display","none");
  $(window).resize(function(){	 
  
-  if ($(window).width() <860)
+  if ($(window).width() <900)
   {
 	  $(".index").css("display","initial");
 	  $(".bar").css("display","none");
@@ -12,7 +12,7 @@
 	  $(".index").css("display","none");
 	  $(".bar").css("display","initial");
   }
- if ($(window).width() >1200)
+/*if ($(window).width() >1200)
 	 {
 		
 		 $(".profilepic").removeClass("animate3");
@@ -26,18 +26,18 @@
 		 $(".profilepic").addClass("animate3");
 		 $(".experience").addClass("animate4");
 		 $("#banner").css("height","1000px");
-	 }
+	 }*/
 	 });
 $(window).scroll(function() {
 
-    if ($(this).scrollTop() > 650) {
+    if ($(this).scrollTop() > 750) {
         // apply effects and animations
 		$(".profilepic").addClass("animate");
 		$(".experience").addClass("animate");
 		$(".sintro").addClass("animate2");
     }
 	
-	if ($(this).scrollTop() > 1200){		  
+	if ($(this).scrollTop() > 1300){		  
 		  $(".skill").addClass("animate");
 		  $(".b").addClass("animate");
 		  $(".sintro2").addClass("animate2");
