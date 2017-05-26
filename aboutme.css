@@ -392,6 +392,17 @@ hr {
 	  top: 30%;
 	  line-height: 300px;
 	}
+	
+    .sintro 
+	{
+	  left: 50%;
+	  top: 25%;
+	}
+	#banner 
+	{
+	  background-position: center;
+
+	}
 }
 
 @media screen and (max-width: 900px)
