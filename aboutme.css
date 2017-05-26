@@ -32,9 +32,12 @@
 html, body {
   margin: 0px;
   padding: 0px;
-  font: 20px Montserrat, sans-serif;
+  font: 100% Montserrat, sans-serif;
   line-height: 1.8;
   color: #000;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a{
@@ -42,7 +45,7 @@ a{
 	color: white;
 }
 .nav {
-  font-size: 25px;
+  font-size: 150%;
   letter-spacing: 5px;
   position: fixed;
   height: 50px;
@@ -69,8 +72,7 @@ a{
 	cursor: pointer;
 	height: 20px;
 	width: 20px;
-	opacity: 1;
-
+	display: none;
 }
 
 #bar {
@@ -111,12 +113,12 @@ a{
 }
 
 .title > h1 {
-  font-size: 75px;
+  font-size: 500%;
 }
 
 .title > h4 {
   top: 20px;
-  font-size: 30px;
+  font-size: 200%;
 }
 
 .links {
@@ -143,11 +145,12 @@ a {
 .Intro{
 	width: 100%;
 	display: inline-block;
+	margin: -10px;
 }
 .name {
   top: -80px;
   text-align: center;
-  font-size: 30px;
+  font-size: 200%;
   font-weight: 900;
   background-color: #6C6D6D;
   color: #fff;
@@ -167,7 +170,7 @@ a {
 
 .intro {
   bottom: -260px;
-  font-size: 20px;
+  font-size: 125%;
   background-color: #6C6D6D;
   color: #fff;
   padding-left: 7px;
@@ -177,11 +180,11 @@ a {
 
 .experience {
   transition-duration: 0.2s;
-  width: 60%;
+  width: 700px;
   left: 47%;
-  top: 10%;
   height: 600px;
   opacity: 0;
+  font-size: 150%;
 
 }
 
@@ -198,7 +201,7 @@ a {
   display: inline-block;
   vertical-align: top;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 120%;
 }
 
 #skill1 > li {
@@ -216,6 +219,7 @@ a {
   opacity: 0;
   transition-duration: 0.2s;
   top:50px;
+  font-size: 400%;
 }
 
 hr {
@@ -253,6 +257,7 @@ hr {
 .films > h3
 {
 	left: -30%;
+	font-size: 100%;
 }
 .b2 {
   opacity: 0;
@@ -299,8 +304,14 @@ hr {
   top: 50%;
 }
 
+.b2{
+	font-size: 400%;
+}
+
+
 .b2 > hr {
-  border-top: 2px solid #666666;
+  
+  border-top: 3px solid #666666;
   width: 200px;
 }
 
@@ -323,6 +334,12 @@ hr {
 
 @media screen and (max-width: 1257px)
 {
+	.index{
+		display: initial;
+	}
+	#bar{
+		display: none;
+	}
 	.profilepic
 	{
 		left: 35%;
@@ -332,28 +349,28 @@ hr {
 	
 	.intro 
 	{
-	  bottom: -405px;
-	  font-size: 25px;
+	  bottom: -80%;
 	  width: 390px;
-
+      font-size: 170%;
 	}
 	
 	.name {
 	  top: -120px;
-
+      font-size: 350%;
 	}
 	
 	.Intro
 	{
 	height: 1800px;
+	
     }
 	
 	.experience 
 	{
-	  font-size: 25px;
+	  font-size: 150%;
 	  top: 700px;	  
-      width: 100%;
-	  left: 25%;
+      width: 600px;
+	  left: 15%;
 	}
 	
 	.title 
@@ -363,7 +380,7 @@ hr {
 	
 	.links 
 	{
-      top: 20%;
+      top: 15%;
       height: 50px;
     }
 	
@@ -377,19 +394,31 @@ hr {
 	}
 }
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 900px)
 {
+	.index{
+		opacity: 1;
+	}
+	.bar{
+		opacity: 0;
+	}
+	#banner 
+	{
+	  background-position: center;
+
+	}
 	.profilepic
 	{
 		left: 25%;
 		width: 400px;
 		height: 400px; 
+		margin: 0;
 	}
 	
 	.intro 
 	{
-	  bottom: -405px;
-	  font-size: 25px;
+	  bottom: -80%;
+	  font-size: 150%;
 	  width: 390px;
 
 	}
@@ -406,9 +435,9 @@ hr {
 	
 	.experience 
 	{
-	  font-size: 23px;
+	  font-size: 125%;
 	  top: 700px;	  
-      width: 100%;
+      width: 550px;
 	  left: 10%;
 	}
 	
@@ -419,7 +448,7 @@ hr {
 	
 	.links 
 	{
-      top: 20%;
+      top: 10%;
       height: 50px;
     }
 	
